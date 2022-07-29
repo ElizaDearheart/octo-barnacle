@@ -6,16 +6,59 @@ body {
     flex-direction: column;
 }
 
+/* Top Header */
 .top-header {
     background-color: #1f2937;
+    color: whitesmoke;
     display: flex;
     height: 72px;
+    flex-direction: row;
+
 }
 
 .top-header-logo {
     display: flex;
+    align-items: center;
+    margin-left: 20px;
+
 }
 
 .top-header-links {
     display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    align-items: center;
+}
+
+/* Main Header */
+
+.main-header {
+    background-color: #1f2937;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-header-info {
+    display: flex;
+    text-align: center;
+}
+
+.main-header-text {
+    display: flex;
+    width: 300px;
+    text-align: center;
+}
+
+/* Link Styling */
+li {
+
+    list-style-type: none;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
 }
