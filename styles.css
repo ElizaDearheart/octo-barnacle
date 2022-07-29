@@ -1,0 +1,21 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header {
+    background-color: #1f2937;
+    display: flex;
+    height: 72px;
+}
+
+.top-header-logo {
+    display: flex;
+}
+
+.top-header-links {
+    display: flex;
+}
