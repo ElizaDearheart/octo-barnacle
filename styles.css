@@ -9,9 +9,10 @@ body {
 button {
     padding: 8px 16px;
     border-radius: 8px;
-    width: 100px;
     font-weight: bold;
-    color: #1f2937;
+    background-color: #3882F6;
+    color: whitesmoke;
+    font-size: medium;
 }
 
 /* Top Header */
@@ -56,6 +57,7 @@ button {
     align-items: center;
     width: 400px;
     padding-bottom: 30px;
+    padding-right: 40px;
 
 }
 
@@ -83,6 +85,9 @@ button {
 .main-body {
     display: flex;
     flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
 }
 
 .body-header {
@@ -90,24 +95,30 @@ button {
     font-size: 35px;
     font-weight: bolder;
     color: #1F2937;
-    justify-content: center;
-
 }
 
 .barnacle-pictures {
     display: flex;
-    justify-content: center;
-    justify-content: space-around;
     text-align: center;
-    align-items: center;
-    gap: 30px;
-    margin-right: 50px;
-    margin-left: 50px;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .barnacle-pictures img {
     height: 100px;
     width: auto;
+    padding: 5px;
+}
+
+.indiv {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border: #3882F6;
+    border-style: solid;
+    border-width: 3px;
+    padding: 15px;
+    border-radius: 25px;
 }
 
 /* Lower Body */
@@ -115,7 +126,14 @@ button {
 .lower-body {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #E5E7EB;
+    height: 300px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+
 }
 
 /* Call to Action */
@@ -123,6 +141,31 @@ button {
 .call-to-action {
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #3882F6;
+    border-radius: 25px;
+    margin: 50px 100px
+}
+
+.learn-more-group {
+    display: flex;
+    flex-direction: column;
+    padding-right: 25px;
+}
+
+.learn-more {
+    display: flex;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.click-button {
+    display: flex;
+    color: whitesmoke;
+    font-size: 16px;
+    margin-top: -15px;
 }
 
 /* Footer */
