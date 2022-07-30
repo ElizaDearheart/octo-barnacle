@@ -99,6 +99,7 @@ button {
 
 .barnacle-pictures {
     display: flex;
+    justify-content: center;
     text-align: center;
     gap: 50px;
     flex-wrap: wrap;
