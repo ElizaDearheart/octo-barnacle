@@ -88,6 +88,7 @@ button {
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
+    height: 400px;
 }
 
 .body-header {
@@ -130,7 +131,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    height: 300px;
+    height: 400px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -140,6 +141,13 @@ button {
 
 /* Call to Action */
 
+.last-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
 .call-to-action {
     display: flex;
     justify-content: center;
@@ -147,7 +155,7 @@ button {
     padding: 10px 30px;
     background-color: #3882F6;
     border-radius: 25px;
-    margin: 50px 100px
+
 }
 
 .learn-more-group {
