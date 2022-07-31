@@ -88,7 +88,7 @@ button {
     margin-bottom: 30px;
     justify-content: center;
     align-items: center;
-    height: 400px;
+    min-height: 400px;
 }
 
 .body-header {
@@ -131,7 +131,7 @@ button {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    height: 400px;
+    min-height: 400px;
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
